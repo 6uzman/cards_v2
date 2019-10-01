@@ -1,0 +1,9 @@
+/* el elmento adjunto inmediato*/
+/*h1 +  p{
+    background: #ddd;
+} */
+
+/* cuaquier hermano no necesariamente inmediato*/
+h1 ~ p {
+    background: #ddd;
+}
