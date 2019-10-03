@@ -19,6 +19,19 @@ body > div{
     float: left;
 }
 
+/* pseudoclases*/
+body > div:hover{
+    background: #dddd;
+}
+
+body > div:last-of-type{
+    background: red;
+}
+
+
+
+
+
 div > img {
     width: 100%;
     border-radius: 10px;
